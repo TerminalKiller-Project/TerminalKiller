@@ -1,9 +1,12 @@
-const express = require('express')
-const server = express()
-const morgan = require('morgan')
-const terminalKiller = require('./Routes/server/terminalkiller.js')
-const users = require('./Routes/server/users.js')
-const posts = require('./Routes/apps/posts.js')
+const express = require('express');
+const morgan = require('morgan');
+const server = express();
+
+const terminal = require('./Routes/server/terminal.js');
+const users = require('./Routes/server/users.js');
+const posts = require('./Routes/apps/posts.js');
+
+const port = 10000;
 
 server.use((req, res, next)=>{
     console.log(req.headers.origin)
@@ -20,19 +23,12 @@ server.use((req, res, next)=>{
         res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, DELETE');
         next();
     }
-    // else{
-    //     res.header('Access-Control-Allow-Origin', ('*'));
-    //     res.header('Access-Control-Allow-Credentials', 'true');
-    //     res.header('Access-Control-Allow-Headers', 'Origin, X-Requested, Content-Type, Accept');
-    //     res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, DELETE');
-    //     next();
-    // }
 });
 
 server.use(morgan('dev'))
 server.use(express.json())
-server.use('/terminalkiller', terminalKiller)
+server.use('/terminal', terminal)
 server.use('/users', users)
 server.use('/posts', posts)
 
-server.listen(3001, () => console.log('running on port 3001'))
+server.listen(port, () => console.log(`Running on port ${port}`))
