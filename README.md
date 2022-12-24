@@ -1,4 +1,4 @@
-#TerminalKiller | SoyHenry Proyecto Final | Cohorte 31b - Grupo 3
+# TerminalKiller | SoyHenry Proyecto Final | Cohorte 31b - Grupo 3
 BackEnd
 
-Plataforma de contenido multimedia y venta de merchandising del estudio de grabación “La Ruina Records”
+Server de plataforma multimedia y tienda virtual
