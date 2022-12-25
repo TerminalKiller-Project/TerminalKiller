@@ -13,5 +13,5 @@
 </p>
 </details>
 
-### BackEnd [![status](https://github.com/GwerhBard/TerminalKiller/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main&event=gollum)](status)
+### BackEnd [[![pages-build-deployment](https://github.com/GwerhBard/TerminalKiller/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main&event=gollum)](https://github.com/GwerhBard/TerminalKiller/actions/workflows/pages/pages-build-deployment)
 Server de plataforma multimedia y tienda virtual
