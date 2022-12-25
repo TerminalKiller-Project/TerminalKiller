@@ -32,4 +32,4 @@ server.use('/terminal', terminal)
 server.use('/users', users)
 server.use('/posts', posts)
 
-server.listen(10000, () => console.log(`Server status: online`))
+server.listen(10000, () => console.log(`Server status: Online`))
