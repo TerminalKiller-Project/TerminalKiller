@@ -10,20 +10,20 @@ const posts = require('./Routes/apps/posts.js');
 
 server.use((req, res, next)=>{
     console.log(req.headers.origin)
-    const corsList = [
-        'http://localhost:3000',
-        'http://localhost:3001',
-        'http://localhost:3002',
-        'http://192.168.100.16:3000'
-    ];
-    if(corsList.includes(req.headers.origin)){   
-        res.header('Access-Control-Allow-Origin', (req.headers.origin));
+    // const corsList = [
+    //     'http://localhost:3000',
+    //     'http://localhost:3001',
+    //     'http://localhost:3002',
+    //     'http://192.168.100.16:3000'
+    // ];
+    // if(corsList.includes(req.headers.origin)){   
+        res.header('Access-Control-Allow-Origin', '*');
         res.header('Access-Control-Allow-Credentials', 'true');
         res.header('Access-Control-Allow-Headers', 'Origin, X-Requested, Content-Type, Accept');
         res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, DELETE');
         next();
     }
-});
+// });
 
 server.use(morgan('dev'))
 server.use(express.json())
