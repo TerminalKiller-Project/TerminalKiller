@@ -23,7 +23,8 @@ server.use((req, res, next)=>{
         res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, DELETE');
         next();
     }
-// });
+// }
+);
 
 server.use(morgan('dev'))
 server.use(express.json())
