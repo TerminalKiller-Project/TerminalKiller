@@ -1,4 +1,4 @@
-# TerminalKiller | SoyHenry Proyecto Final
+# TerminalKiller | SoyHenry Proyecto Final [![Deploy on push](https://github.com/GwerhBard/TerminalKiller/actions/workflows/deploy.yml/badge.svg)](https://github.com/GwerhBard/TerminalKiller/actions/workflows/deploy.yml)
 <details>
 <summary>Cohorte 31b - Grupo 3</summary>
 <p>
@@ -13,5 +13,6 @@
 </p>
 </details>
 
-### BackEnd [![Deploy on push](https://github.com/GwerhBard/TerminalKiller/actions/workflows/deploy.yml/badge.svg)](https://github.com/GwerhBard/TerminalKiller/actions/workflows/deploy.yml)
+### BackEnd 
+
 Server de plataforma multimedia y tienda virtual
