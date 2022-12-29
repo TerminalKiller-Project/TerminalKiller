@@ -1,4 +1,7 @@
 # TerminalKiller | SoyHenry Proyecto Final [![Deploy on push](https://github.com/GwerhBard/TerminalKiller/actions/workflows/deploy.yml/badge.svg)](https://github.com/GwerhBard/TerminalKiller/actions/workflows/deploy.yml)
+
+CHICOS, NO HE PODIDO RESOLVER UNOS PROBLEMAS CON MIS CUENTAS PARA PODER RETOMAR LAS COMUNICACIONES CON TODOS USTEDES. DISCULPEN LAS INCONVENIENCIAS, YA HABRÁ TIEMPO PARA EXPLICAR TODO
+
 <details>
 <summary>Cohorte 31b - Grupo 3</summary>
 <p>
